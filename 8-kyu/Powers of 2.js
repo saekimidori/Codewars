@@ -11,4 +11,4 @@ function powersOfTwo(n){
       arr.push(Math.pow(2, i))
     }
     return arr
-  }
+}
