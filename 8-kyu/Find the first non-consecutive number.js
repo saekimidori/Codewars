@@ -9,10 +9,10 @@
 // The array will always have at least 2 elements1 and all elements will be numbers. The numbers will also all be unique and in ascending order. The numbers could be positive or negative and the first non-consecutive could be either too!
 
 function firstNonConsecutive (arr) {
-  //P: take in an array of numbers
-  //R: null if the whole array is consecutive
-  //E:
-  //P: find the first element in the array that is not consecutive
+  // P: take in an array of numbers
+  // R: null if the whole array is consecutive
+  // E:
+  // P: find the first element in the array that is not consecutive
   // go through the array and check if the next number is exactly 1 above the last number
   for (i = 0; i < arr.length-1; i++) {
     if (arr[i + 1] !== arr[i] + 1) {
