@@ -6,9 +6,9 @@
 // * "1234!_ "     -> "11223344!!__  "
 
 function doubleChar(str) {
-  let doubled = ''
-  for (i = 0; i < str.length; i++) {
-    doubled += str[i] + str[i]
-  }
-  return doubled
+    let doubled = ''
+    for (i = 0; i < str.length; i++) {
+      doubled += str[i] + str[i]
+    }
+    return doubled
 }
