@@ -1,3 +1,18 @@
+// Stringy Strings
+function stringy(size) {
+  let str = ''
+  for (i = 0; i < size; i++) {
+    if (i % 2 === 0) {
+      str += 1    
+    } else {
+      str += 0
+    }
+  }
+  return str
+}
+
+
+
 // If you can't sleep, just count sheep!!
 var countSheep = function (num){
   let count = ''
