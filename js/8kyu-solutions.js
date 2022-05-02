@@ -1,3 +1,16 @@
+// Find Multiples of a Number
+function findMultiples(integer, limit) {
+  let arr = []
+  for (i = 1; i <= limit; i++) {
+    if (i % integer === 0) {
+      arr.push(i)    
+    }
+  }
+  return arr
+}
+
+
+
 // Find Maximum and Minimum Values of a List
 function min(list) {
   return Math.min(...list)
