@@ -1,3 +1,18 @@
+// Count of positives / sum of negatives
+function countPositivesSumNegatives(input) {
+  let arr = []
+  if (input === null || input.length < 1) {
+    return arr
+  } else {
+    let count = input.filter(n => n > 0).length
+    let sum = input.filter(n => n < 0).reduce((a,c) => a + c, 0)
+    arr.push(count, sum)
+    return arr
+  }
+}
+
+
+
 // Plural
 function plural(n) {
   if (n === 1) {
