@@ -1,3 +1,14 @@
+// Plural
+function plural(n) {
+  if (n === 1) {
+    return false
+  } else {
+    return true
+  }
+}
+
+
+
 // Find Multiples of a Number
 function findMultiples(integer, limit) {
   let arr = []
