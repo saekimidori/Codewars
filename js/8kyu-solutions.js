@@ -1,3 +1,11 @@
+// Remove String Spaces
+function noSpace(x){
+  let newStr = x.split(' ')
+  return newStr.join('')
+}
+
+
+
 // Count of positives / sum of negatives
 function countPositivesSumNegatives(input) {
   let arr = []
