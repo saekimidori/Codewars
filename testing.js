@@ -62,19 +62,3 @@ console.log(':'.toLowerCase())
 //   // return x.trim(' ')
 // }
 // noSpace('8 j 8   mBliB8g  imjB8B8  jl  B')
-
-/*
-// How good are you really?
-function betterThanAverage(classPoints, yourPoints) {
-    // Your code here
-  //   let classPoints = []
-    for (i = 0; i <= classPoints.length; i++) {
-      // let sum += i
-      console.log(sum)
-    }
-  //   return sum + yourPoints
-  
-  }
-
-  betterThanAverage([2, 3], 5)
-*/
