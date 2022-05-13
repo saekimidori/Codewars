@@ -7,6 +7,6 @@
 // Don't worry about numbers, special characters, or non-string types being passed to the function. The string lengths will be from 1 character up to 10 characters, but will never be empty.
 
 function capitalizeWord(word) {
-    word = word[0].toUpperCase() + word.substring(1);
-    return word;
-  }
+  word = word[0].toUpperCase() + word.substring(1);
+  return word;
+}
