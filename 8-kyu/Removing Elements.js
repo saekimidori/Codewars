@@ -1,5 +1,3 @@
-// Removing Elements
-
 // Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
 
 // Example:
@@ -9,6 +7,6 @@
 // None of the arrays will be empty, so you don't have to worry about that!
 
 function removeEveryOther(arr){
-    let newArr = arr.filter((e,i) => i % 2 === 0)
-    return newArr
-  }
+  let newArr = arr.filter((e,i) => i % 2 === 0)
+  return newArr
+}

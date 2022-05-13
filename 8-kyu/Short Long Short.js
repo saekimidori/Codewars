@@ -5,7 +5,7 @@
 // The length of string is not always the same as the number of characters
 // For example: (Input1, Input2) --> output
 
-function solution(a, b){
+function solution(a, b) {
     let str = ''
     if (a.length < b.length) {
         str = a + b + a
@@ -14,8 +14,3 @@ function solution(a, b){
     }
     return str
 }
-
-solution('45', '1')
-solution('13', '200')
-solution('Soon', 'Me')
-solution('U', 'False')
