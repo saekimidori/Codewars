@@ -9,12 +9,11 @@
 // Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
 
 function betterThanAverage(classPoints, yourPoints) {
-    let totalPeerScores = classPoints.reduce((a,b) => a + b)
-    let avgPeerScore = totalPeerScores / classPoints.length
-    if (yourPoints > avgPeerScore) {
-        return true
-    } else {
-        return false
-    }
+  let totalPeerScores = classPoints.reduce((a,b) => a + b)
+  let avgPeerScore = totalPeerScores / classPoints.length
+  if (yourPoints > avgPeerScore) {
+      return true
+  } else {
+      return false
+  }
 }
-// FIRST TRYYYYY
